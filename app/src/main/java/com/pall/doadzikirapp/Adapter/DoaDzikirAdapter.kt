@@ -1,10 +1,11 @@
-package com.pall.doadzikirapp
+package com.pall.doadzikirapp.Adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.pall.doadzikirapp.R
 import com.pall.doadzikirapp.model.DoaDzikirItem
 
 // Adapter is a subclass from RecyclerView which take responsibility

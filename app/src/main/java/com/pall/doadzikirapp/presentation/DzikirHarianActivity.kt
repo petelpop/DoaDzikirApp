@@ -3,10 +3,9 @@ package com.pall.doadzikirapp.presentation
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.pall.doadzikirapp.DoaDzikirAdapter
+import com.pall.doadzikirapp.Adapter.DoaDzikirAdapter
 import com.pall.doadzikirapp.R
 import com.pall.doadzikirapp.databinding.ActivityDzikirHarianBinding
-import com.pall.doadzikirapp.databinding.ActivityQauliyahShalatBinding
 import com.pall.doadzikirapp.model.DoaDzikirItem
 
 class DzikirHarianActivity : AppCompatActivity() {
@@ -15,6 +14,8 @@ class DzikirHarianActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_arrow_back)
         // show navigation button
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
@@ -32,7 +33,7 @@ class DzikirHarianActivity : AppCompatActivity() {
         binding.rvDzikirHarian.layoutManager = LinearLayoutManager(this)
     }
 
-    private fun providingDzikirDatas() : List<DoaDzikirItem> {
+    private fun providingDzikirDatas(): List<DoaDzikirItem> {
         // data set of dzikir is located in strings.xml
         // we need to get string array from strings.xml put into a variable
         // resources is a variable from AppCompat which getting access to Resource directory

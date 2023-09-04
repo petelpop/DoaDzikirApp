@@ -3,9 +3,8 @@ package com.pall.doadzikirapp.presentation.pagipetang
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.pall.doadzikirapp.DoaDzikirAdapter
+import com.pall.doadzikirapp.Adapter.DoaDzikirAdapter
 import com.pall.doadzikirapp.R
-import com.pall.doadzikirapp.databinding.ActivityPagiBinding
 import com.pall.doadzikirapp.databinding.ActivityPetangBinding
 import com.pall.doadzikirapp.model.DataDoaDzikir
 
@@ -15,6 +14,8 @@ class PetangActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_arrow_back)
         // show navigation button
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 

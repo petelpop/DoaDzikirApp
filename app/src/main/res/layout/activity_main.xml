@@ -19,6 +19,20 @@
         android:textSize="32sp"
         android:textStyle="bold" />
 
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp_article"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="16dp" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="14dp"
+        android:orientation="horizontal" />
+
     <!--region / Menu dzikir dan doa-->
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,11 +44,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
             android:text="@string/kumpulan_doa_dzikir"
             android:textColor="@color/blue"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="8dp"/>
+            android:textStyle="bold" />
 
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/card_qauliyah_shalat"
@@ -43,8 +57,7 @@
             android:layout_marginVertical="5dp"
             app:cardBackgroundColor="@color/gray"
             app:cardCornerRadius="15dp"
-            app:strokeWidth="0dp"
-            app:cardElevation="5dp">
+            app:strokeWidth="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"

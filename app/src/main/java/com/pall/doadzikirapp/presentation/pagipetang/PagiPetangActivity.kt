@@ -13,6 +13,8 @@ class PagiPetangActivity : AppCompatActivity(), View.OnClickListener {
     private val binding get() = _binding as ActivityPagiPetangBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_arrow_back)
         _binding = ActivityPagiPetangBinding.inflate(layoutInflater)
         setContentView(binding.root)
 

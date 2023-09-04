@@ -14,13 +14,16 @@
         android:theme="@style/Theme.DoaDzikirApp"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.pagipetang.PetangActivity"
-            android:theme="@style/Theme.App.DzikirPetang"
+            android:name=".presentation.DetailArticleActivity"
             android:exported="false" />
         <activity
+            android:name=".presentation.pagipetang.PetangActivity"
+            android:exported="false"
+            android:theme="@style/Theme.App.DzikirPetang" />
+        <activity
             android:name=".presentation.pagipetang.PagiActivity"
-            android:theme="@style/Theme.App.DzikirPagi"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.App.DzikirPagi" />
         <activity
             android:name=".presentation.pagipetang.PagiPetangActivity"
             android:exported="false" />

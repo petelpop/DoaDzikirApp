@@ -13,6 +13,8 @@
     <string name="image_represented_morning_vibes">Image represented morning vibes</string>
     <string name="content_desc_imgbtn_pagi_petang">button with icon for navigation to next page</string>
     <string name="dzikir_petang">Dzikir Petang</string>
+    <string name="content_desc_image_article">Image Article</string>
+    <string name="content_desc_img_detail">Image Detail Article From Dataset</string>
     <string-array name="arr_img_artikel">
         <item>@drawable/artikel_1</item>
         <item>@drawable/bg_artikel</item>

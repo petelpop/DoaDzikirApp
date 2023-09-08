@@ -10,4 +10,6 @@
 
     <color name="morning_blue">#26a0f6</color>
     <color name="afternoon_orange">#EA6710</color>
+    <color name="orange_main">#EFC97C</color>
+    <color name="orange_secondary">#ffde9c</color>
 </resources>

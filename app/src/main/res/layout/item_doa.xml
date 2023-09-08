@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
-    app:cardBackgroundColor="@color/gray"
+    app:cardBackgroundColor="@color/orange_main"
     app:cardCornerRadius="20dp">
 
     <LinearLayout
@@ -16,9 +16,9 @@
             android:id="@+id/item_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/blue_gray"
+            android:background="@color/orange_secondary"
             android:padding="16dp"
-            android:textColor="@color/blue"
+            android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/arabic_arihna"
             android:padding="16dp"
-            android:textColor="@color/blue"
+            android:textColor="@color/white"
             android:textSize="18sp" />
 
         <TextView
@@ -39,7 +39,7 @@
             android:paddingTop="16dp"
             android:paddingEnd="16dp"
             android:paddingBottom="8dp"
-            android:textColor="@color/blue"
+            android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="italic" />
     </LinearLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/gray"
+    android:background="@color/orange_secondary"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -15,7 +15,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:text="@string/app_name"
-        android:textColor="@color/blue"
+        android:textColor="@color/white"
         android:textSize="32sp"
         android:textStyle="bold" />
 
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:text="@string/kumpulan_doa_dzikir"
-            android:textColor="@color/blue"
+            android:textColor="@color/orange_main"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -55,7 +55,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
-            app:cardBackgroundColor="@color/gray"
+            app:cardBackgroundColor="@color/orange_main"
             app:cardCornerRadius="15dp"
             app:strokeWidth="0dp">
 
@@ -77,7 +77,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:text="@string/txt_menu_qauliyah_dizikir_doa"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -90,7 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
-            app:cardBackgroundColor="@color/gray"
+            app:cardBackgroundColor="@color/orange_main"
             app:cardCornerRadius="15dp"
             app:strokeWidth="0dp">
 
@@ -112,7 +112,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:text="@string/txt_dzikir_setiap_saat"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -125,7 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
-            app:cardBackgroundColor="@color/gray"
+            app:cardBackgroundColor="@color/orange_main"
             app:cardCornerRadius="15dp"
             app:strokeWidth="0dp">
 
@@ -147,7 +147,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:text="@string/txt_dzikir_dan_doa_harian"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -160,7 +160,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
-            app:cardBackgroundColor="@color/gray"
+            app:cardBackgroundColor="@color/orange_main"
             app:cardCornerRadius="15dp"
             app:strokeWidth="0dp">
 
@@ -182,7 +182,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:text="@string/txt_dzikir_pagi_petang"
-                    android:textColor="@color/blue"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 

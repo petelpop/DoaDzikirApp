@@ -17,7 +17,7 @@
         android:paddingEnd="16dp"
         android:paddingBottom="8dp"
         android:text="@string/txt_dzikir_setiap_saat"
-        android:textColor="@color/blue"
+        android:textColor="@color/white"
         android:textSize="28sp"
         android:textStyle="bold" />
 

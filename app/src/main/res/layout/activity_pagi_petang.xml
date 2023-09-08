@@ -17,7 +17,7 @@
         android:paddingEnd="16dp"
         android:paddingBottom="8dp"
         android:text="@string/txt_dzikir_pagi_petang"
-        android:textColor="@color/blue"
+        android:textColor="@color/white"
         android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
@@ -47,7 +47,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/blue"
+                android:background="@color/orange_main"
                 android:padding="8dp"
                 android:text="@string/dzikir_pagi"
                 android:textColor="@color/white"
@@ -94,7 +94,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/blue"
+                android:background="@color/orange_main"
                 android:padding="8dp"
                 android:text="@string/dzikir_petang"
                 android:textColor="@color/white"
